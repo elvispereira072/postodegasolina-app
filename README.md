@@ -24,6 +24,11 @@ Bem-vindo ao projeto **Posto de Gasolina ABC**, uma página web simples que apre
   - **Localização**: Mapa embutido para localizar o posto.
   - **Contato**: Formulário para os usuários enviarem mensagens.
   - **Depoimentos de Clientes**: Comentários de clientes satisfeitos.
+ 
+  - Licença
+Este projeto está licenciado sob a MIT License.
+
+Sinta-se à vontade para ajustar qualquer parte que desejar!
 
 ## Como Executar o Projeto
 
