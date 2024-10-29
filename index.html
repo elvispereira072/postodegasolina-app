@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posto de Gasolina ABC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Posto de Gasolina ABC</h1>
+        <nav class="navbar" aria-label="Navegação principal">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#prices">Preços</a></li>
+                <li><a href="#promotions">Promoções</a></li>
+                <li><a href="#location">Localização</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Bem-vindo ao Posto de Gasolina ABC</h2>
+        <p>Seu abastecimento de confiança, sempre pronto para atendê-lo!</p>
+        <a href="#contact" class="cta-button">Entre em Contato</a>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Serviços Oferecidos</h2>
+        <div class="service-list">
+            <div class="service-card">
+                <h3>Abastecimento</h3>
+                <p>Abastecimento rápido e seguro com combustíveis de qualidade.</p>
+            </div>
+            <div class="service-card">
+                <h3>Troca de Óleo</h3>
+                <p>Serviço de troca de óleo para manter seu veículo sempre em dia.</p>
+            </div>
+            <div class="service-card">
+                <h3>Loja de Conveniência</h3>
+                <p>Produtos e lanches para sua viagem.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices" class="prices">
+        <h2>Preços de Combustíveis</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tipo de Combustível</th>
+                    <th>Preço (R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gasolina</td>
+                    <td>5.50</td>
+                </tr>
+                <tr>
+                    <td>Álcool</td>
+                    <td>4.50</td>
+                </tr>
+                <tr>
+                    <td>Diesel</td>
+                    <td>6.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="promotions" class="promotions">
+        <h2>Promoções Atuais</h2>
+        <ul>
+            <li>Desconto de 10% em abastecimento acima de R$ 100!</li>
+            <li>Compre um lanche e ganhe um refrigerante!</li>
+            <li>Promoção de fidelidade: a cada 5 abastecimentos, o 6º é grátis!</li>
+        </ul>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre Nós</h2>
+        <p>O Posto de Gasolina ABC tem mais de 10 anos de experiência no mercado, oferecendo produtos e serviços de qualidade. Nossa missão é garantir a satisfação dos nossos clientes com um atendimento rápido e eficiente. Trabalhamos com combustíveis de alta qualidade e temos um compromisso com a segurança e o meio ambiente.</p>
+    </section>
+
+    <section id="location" class="location">
+        <h2>Localização</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.5860907370166!2d-47.93063328487807!3d-15.778118688263753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a09d1e07c8c07%3A0xe9e57c09aa6e96f5!2sPosto%20de%20Gasolina%20ABC!5e0!3m2!1spt-BR!2sbr!4v1693096539605!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Seu Nome" required aria-required="true">
+            <input type="email" id="email" placeholder="Seu Email" required aria-required="true">
+            <textarea id="message" placeholder="Sua Mensagem" required aria-required="true"></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Depoimentos de Clientes</h2>
+        <div class="testimonial-card">
+            <p>"O melhor posto da cidade! Atendimento excepcional!" - João S.</p>
+        </div>
+        <div class="testimonial-card">
+            <p>"Sempre abasteço aqui. Preços justos e ótimos serviços." - Maria P.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Posto de Gasolina ABC. Todos os direitos reservados.</p>
+        <div class="footer-links">
+            <a href="#home">Início</a> |
+            <a href="#services">Serviços</a> |
+            <a href="#contact">Contato</a> |
+            <a href="#about">Sobre Nós</a>
+        </div>
+    </footer>
+</body>
+</html>
